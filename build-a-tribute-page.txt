@@ -1,0 +1,109 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tribute page for a Stanford scientist making medicine accessible for the impoverished and sidelined communities across the world" />
+    <title>Tribute page to Manu Prakash</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Manu Prakash</h1>
+      <p>The man who helped save thousands of lives with the help of frugal engineering.</p>
+      <figure id="img-div">
+        <img id="image" src="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e40187e4f3c35c8d31024e4145eef47598606cc8_1600x1200.jpg?c=1050%2C550&w=1050" alt="Manu Prakash showing his Foldoscope to his audience during a TED talk event">
+        <figcaption id="img-caption">Manu Prakash showing his Foldoscope to his audience during a TED talk event</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Here's how Manu Prakash helped so many people in impoverished countries fight disease with makeshift equipment within the scope of frugal engineering:</h3>
+        <ul>
+          <li>Born in Meerut, India, he would earn a Bachelor's degree in computer science and engineering from the Indian Institue of Technology Kanpur (IIT Kanpur) and then a M.S. and PhD in applied physics from MIT. Right now he's a professor at Stanford University.</li>
+          <li>Originally partnering with Jim Cybulski, Prakash now has an entire lab and science team to innovate and further help people across the world.</li>
+          <li>For the uninitiated, frugal engineering is the process of reducing the cost and complexity of manufacturing an item like a phone or a car (or in this case, medical instruments) in order to sell it in developing countries.</li>
+          <li>Most modern medical instruments require electricty to run, which is a huge problem for many sidelined communities, particularly in developing countries where they don't have electricity. Manu Prakash and his team seek to remedy this problem with analogue equipment that don't need electricity.</li>
+          <li>His first invention with Jim Cybulski was the Foldoscope, a microscope designed to cost less than $1 to build with simple components, like a piece of paper and a lens. It doesn't need electricity to run and, coupled with the cheap and easy assembly, makes it invaluable for doctors in said communities for examining speciments collected from patients.</li>
+          <li>The paperfuge is the second invention and he and his team created. Inspired by the whyrligig toy, it uses simple components like paper and string while keeping its cost below $1, and it spins at a mind boggling <i>125000 RPM</i> using only the user's hands. This enables it to quickly separate the content's of a patients blood, allowing for rapid diagnosis of malaria.</li>
+          <li>In an effort to bring computing to these communities, Prakash and his team have also invented a computer than uses the flow of water droplets to work instead of electrons like conventional computers. Obviously using water droplets isn't as efficient as electrons, but if you don't have access to modern computers there's no real argument against a more unorthodox approach.</li>
+        </ul>
+        <blockquote cite="https://www.ted.com/talks/manu_prakash_lifesaving_scientific_tools_made_of_paper">
+        <p>"One of the phenomenal things I love about this is the sense of community. There is a kid in Nicaragua teaching others how to identify mosquito species that carry Dengue by looking at the larva under a microscope. There's a pharmacologist who came up with a new way to detect fake drugs anywhere. There is a girl who wondered "How does glitter actually work?" and discovered the physics of crystalline formation in glitter. There is an Argentinian doctor who's trying to do field cervical cancer screening with this tool. And, yours very truly, found a species of flea that was dug inside my heel in my foot one centimeter deep. Now, you might think these are anomalies, but there is a method to the madness. I call this "frugal science" - the idea of sharing the experience of science and not just the information.</p>
+        <cite>-- Manu Prakash during a speech at TEDx</cite>
+        </blockquote>
+      </section>
+      <h3>If you have time, consider checking out more of his work here:</h3>
+      <ul">
+        <li>Manu Prakash's <a id="tribute-link" href="https://en.wikipedia.org/wiki/Manu_Prakash" target="_blank">Wikipedia Page</a></li>
+        <li>Stanford's <a id="lab-tribute-link" href="http://prakashlab.stanford.edu/" target="_blank">Prakash Lab</a></li>
+        <li>Learn more about the <a id="foldscope-tribute-link" href="https://foldscope.com/" target="_blank">Foldscope</a></li>
+        <li>Learn more about the <a id="paperfuge-tribute-link" href="https://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/wp-content/uploads/2017/12/Paperfuge.pdf" target="_blank">Paperfuge</a> (PDF)</li>
+        <li>Learn more about the <a id="watercomp-tribute-link" href="https://news.stanford.edu/2015/06/08/computer-water-drops-060815/" target="_blank">water droplet computer</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  font-size: 10px;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  text-align: center;
+  color: #222
+}
+
+main{
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+h1{
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#img-caption{
+  margin: 15px 0 5px 0;
+}
+
+#img-div{
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+ul{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+li{
+  margin: 16px 0;
+}
+
+blockquote{
+  font-style: italic;
+  max-width: 650px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+** end of undefined **
+
